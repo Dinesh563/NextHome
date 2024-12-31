@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "NextHome",
+  "version": "1.0",
+  "description": "A Chrome extension to return to the original search results page in the current tab.",
+  "permissions": ["tabs", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "NextHome",
+    "default_icon": {
+      "16": "icons/home-button.png",
+    "32": "icons/home-button.png",
+    "48": "icons/home-button.png",
+    "128": "icons/home-button.png"
+    }
+  },
+  "icons": {
+    "16": "icons/home-button.png",
+    "32": "icons/home-button.png",
+    "48": "icons/home-button.png",
+    "128": "icons/home-button.png"
+  }
+}
